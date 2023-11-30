@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+.input-column {
+  margin-right: 1rem;
+  width: fit-content;
+}
+input {
+    margin-inline: 1rem;
+    margin-top: 0.2rem;
+}
+.button {
+  margin: 1rem;
+}
+
+

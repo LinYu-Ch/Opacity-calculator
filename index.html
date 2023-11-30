@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="input-column opacity__input">
+      <p>OPACITY</p>
+      <input
+        type="number"
+        max="1"
+        min="0"
+        step="0.1"
+        placeholder="opacity"
+        id="opacity__input"
+      />
+    </div>
+    <div class="input-column clr-1__input">
+      <p>COLOR</p>
+      <!-- <input type="text" placeholder="hex" id="color__input--hex"> -->
+      <input
+        type="number"
+        min="0"
+        max="255"
+        placeholder="R"
+        id="color__input--red"
+      /><input
+        type="number"
+        min="0"
+        max="255"
+        placeholder="G"
+        id="color__input--green"
+      /><input
+        type="number"
+        min="0"
+        max="255"
+        placeholder="B"
+        id="color__input--blue"
+      />
+    </div>
+    <div class="input-column clr-bg__input">
+      <p>BACKGROUND COLOR</p>
+      <!-- <input type="text" placeholder="hex" id="bg__input--hex"> -->
+      <input
+        type="number"
+        min="0"
+        max="255"
+        placeholder="R"
+        id="bg__input--red"
+      /><input
+        type="number"
+        min="0"
+        max="255"
+        placeholder="G"
+        id="bg__input--green"
+      /><input
+        type="number"
+        min="0"
+        max="255"
+        placeholder="B"
+        id="bg__input--blue"
+      />
+    </div>
+    <button class="button" id="acctivate">CALCULATE RGB</button>
+    <!-- <button class="button" id="acctivate-hex">CALCULATE HEX</button> -->
+
+    <div id="output">
+      <p id="output-red">R:</p>
+      <p id="output-green">G:</p>
+      <p id="output-blue">B:</p>
+      <!-- <p id="output-hex">HEX:</p> -->
+    </div>
+  </body>
+</html>
